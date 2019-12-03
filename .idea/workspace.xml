@@ -56,13 +56,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.practise7_classAttribute">
-    <configuration name="practise3_Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practise.practise3_Animal" />
+  <component name="RunManager" selected="Application.p01implements">
+    <configuration name="p01implements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practise2.p01implements" />
       <module name="code_practise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practise.*" />
+          <option name="PATTERN" value="com.practise2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.p01implements" />
         <item itemvalue="Application.practise7_classAttribute" />
         <item itemvalue="Application.practise6_extends1" />
         <item itemvalue="Application.practise5_Rectangle" />
         <item itemvalue="Application.practise4_Person" />
-        <item itemvalue="Application.practise3_Animal" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +144,7 @@
       <updated>1573788679581</updated>
       <workItem from="1573788683049" duration="12767000" />
       <workItem from="1574125326990" duration="2458000" />
-      <workItem from="1575374402837" duration="907000" />
+      <workItem from="1575374402837" duration="3415000" />
     </task>
     <servers />
   </component>
