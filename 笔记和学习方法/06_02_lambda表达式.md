@@ -25,11 +25,10 @@
 > //平时的写法
 > @Test
 >     public void test1() {
->         Runnable runnable = new Runnable() {
->             
+>         Runnable runnable = new Runnable() {       
 >             @Override
 >             public void run() {
->         System.out.println("线程启动了");        
+>         			System.out.println("线程启动了");        
 >             }
 >         };
 >         runnable.run();
@@ -44,25 +43,25 @@
 >     Runnable runnable = ()->System.out.println("线程启动了");    
 >     runnable.run();
 >     }
-> ```
->
-> ```java
+>  ```
+> 
+>```java
 > public static void main(String[] args) {
->     new Thread(new Runnable() {
+>    new Thread(new Runnable() {
 >         @Override
 >         public void run() {
 >             System.out.println("匿名内部类的执行");
 >         }
 >     }).start();
-> }
+>  }
 > //设计匿名内部类的目的，就是为了方便程序猿将代码作为数据来传递。但是你会发现，这个对象看起来是很多余的，所以我们不想传入对象，只想传入行为。
 > 
 > new Thread(()->{
->     System.out.println("lambda代替内部类");
-> }).start();
+>    System.out.println("lambda代替内部类");
+>  }).start();
 > //和实现某接口的对象不同，我们传入了一段代码块--一个没有名字的函数。->将参数和表达式主体分开，左边是参数，右边是方法体。
 > ```
->
+> 
 
 
 
@@ -76,7 +75,7 @@
 >     (String first, String second)
 >     -> first.length() - second.length()
 >     
-> //这 就 是 你 看 到 的 第 一 个 表 达 式。 lambda 表达式就是一个代码块， 以及必须传人
+> //这 就 是 你 看 到 的 第 一 个 表 达 式。 lambda 表达式就是一个代码块， 以及必须传入
 > //代码的变量规范。
 > ```
 >
